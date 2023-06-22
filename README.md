@@ -1,0 +1,1 @@
+# safe-singleton-factory-zksync
