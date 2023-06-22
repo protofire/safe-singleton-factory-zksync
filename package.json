@@ -17,8 +17,8 @@
     "README.md"
   ],
   "scripts": {
-    "compile": "hardhat compile && hardhat deploy-zksync --script compile-zk.ts",
-    "submit": "hardhat compile && hardhat deploy-zksync --script submit-zk.ts",
+    "compile": "hardhat run scripts/compile-zk.ts",
+    "submit": "hardhat run scripts/submit-zk.ts",
     "build": "yarn rimraf dist && tsc",
     "prepublish": "yarn build"
   },
